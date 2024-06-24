@@ -48,9 +48,9 @@ docker compose ps
 
 ![Compose ps](imagenes/ejecucion_contenedor.png)
 
-- Se tuvo que eliminar version: '3.8' debido que está obsoleta
+- Se tuvo que eliminar version: '3.8' debido que está obsoleta.
 - Se tuvo que añadir "{}" en mysql-vol y wordpress-vol, en la sección de volumenes.
-- Se tuvo que revisar el mapeo de los puertos de network, 
+- Se tuvo que revisar el mapeo de los puertos de network.
 
 ### Detener y eliminar los contenedores definidos en el archivo
 ``` bash
