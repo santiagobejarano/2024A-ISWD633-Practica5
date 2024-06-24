@@ -12,5 +12,3 @@ A través de la configuración de Docker Compose, he logrado una comprensión m�
    - **Mapeo de Puertos en Redes**: Revisé el mapeo de los puertos en la red para asegurar la correcta comunicación entre contenedores y accesibilidad desde el host.
 
 Esta práctica no solo reforzó mis competencias técnicas, sino que también me proporcionó una valiosa experiencia práctica en la resolución de problemas y optimización de configuraciones de Docker.
-
-**PSDT**: Gol de Croacia.
