@@ -31,23 +31,28 @@ El archivo compose.yaml permitirá configurar dos servicios de acuerdo con el si
 ### Ejecutar Docker compose
 Este comando descargará las imágenes necesarias, creará y ejecutará los contenedores según lo definido en el archivo compose.yaml
 Para ejecutar en modo "detached" (en segundo plano) se agrega la opción -d:
-```
+``` bash
 docker compose up -d
 ```
 
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
 Si algún servicio no se creó correctamente se puede usar
-```
+``` bash
 docker compose up -d <nombre servicio>
 ```
 
 ### Listar contenedores en ejecución que se crearon por docker compose
-```
+``` bash
 docker compose ps
 ```
-### COMPLETAR CON UNA CAPTURA DE PANTALLA DEL LISTADO DE LOS CONTENEDORES EN EJECUCIÓN
+
+![Compose ps](imagenes/ejecucion_contenedor.png)
+
+- Se tuvo que eliminar version: '3.8' debido que está obsoleta
+- Se tuvo que añadir "{}" en mysql-vol y wordpress-vol, en la sección de volumenes.
+- Se tuvo que revisar el mapeo de los puertos de network, 
 
 ### Detener y eliminar los contenedores definidos en el archivo
-```
+``` bash
 docker compose down
 ```
